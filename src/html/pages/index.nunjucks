@@ -2,4 +2,6 @@
 
 {% block content %}
 	{% include 'partials/header.nunjucks' %}
+	{% include 'partials/hero.nunjucks' %}
+	{% include 'partials/about.nunjucks' %}
 {% endblock %}
