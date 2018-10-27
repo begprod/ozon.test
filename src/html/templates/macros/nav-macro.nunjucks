@@ -1,14 +1,17 @@
 {% macro activeMenuLink(page="home") %}
-	<nav>
-		<ul>
-			<li>
-				<a class="{% if page == 'home' %} active {% endif %}" href="#">item1</a>
+	<nav class="navigation">
+		<ul class="navigation__inner">
+			<li class="navigation__item">
+				<a class="navigation__link{% if page == 'home' %} active {% endif %}" href="#">Вакансии</a>
 			</li>
-			<li>
-				<a href="#">item2</a>
+			<li class="navigation__item">
+				<a class="navigation__link" href="#">Стажировка</a>
 			</li>
-			<li>
-				<a href="#">item3</a>
+			<li class="navigation__item">
+				<a class="navigation__link" href="#">О компании</a>
+			</li>
+			<li class="navigation__item">
+				<a class="navigation__link" href="#">Факты</a>
 			</li>
 		</ul>
 	</nav>

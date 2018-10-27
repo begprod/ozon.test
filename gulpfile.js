@@ -50,7 +50,7 @@ const serverConfig = {
 	tunnel: false,
 	host: 'localhost',
 	port: 9000,
-	logPrefix: "gulp_project"
+	logPrefix: "ozon.test"
 };
 
 // Tasks

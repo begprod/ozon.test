@@ -1,4 +1,18 @@
-<header>
-	<h1 class="test">Header</h1>
-	<i class="icon icon-arrow-right"></i>
+<header class="header">
+	<div class="wrapper header__inner">
+		<a class="header__logo" href="/">
+			<img src="./media/images/logo.svg" alt="ozon.ru">
+		</a>
+
+		<div class="header__nav">
+			{% import 'macros/nav-macro.nunjucks' as nav %}
+			{{ nav.activeMenuLink('home') }}
+		</div>
+
+		<button class="header__search-btn" type="button" aria-label="Поиск">
+			<img src="./media/images/i-search-white.svg" alt="Поиск">
+		</button>
+
+		<a class="header__phone" href="tel:+74952321044" aria-label="Телефон">+7(495) 232-10-44</a>
+	</div>
 </header>
