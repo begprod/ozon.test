@@ -17,6 +17,8 @@
 		font-weight: 300
 		line-height: 28px
 		color: white
+		@media screen and (max-width: $desktop)
+			width: 225px
 		&::before
 			content: counter(steps-list)
 			counter-increment: steps-list
@@ -38,6 +40,8 @@
 			background-size: cover
 			background-position: center
 			background-repeat: no-repeat
+			@media screen and (max-width: $desktop)
+				right: 15px
 		&:last-child
 			&::after
 				display: none
