@@ -13,32 +13,33 @@
 				<div class="distributors__items">
 					<div class="distributor-item distributors__item">
 						<p class="distributor-item__head">«Дарить легко»</p>
-						<p class="distributor-item__info">+7 (495) 742-77-47</p>
+						<a class="distributor-item__info" href="tel:+74957427747">+7 (495) 742-77-47</a>
 						<p class="distributor-item__info">пн-пт, 09:00 - 18:30</p>
-						<a class="distributor-item__link" href="">mygiftcard.ru</a>
+						<a class="distributor-item__link" href="https://mygiftcard.ru/" target="_blank">mygiftcard.ru</a>
 					</div>
 					<div class="distributor-item distributors__item">
 						<p class="distributor-item__head">«Дари подарки»</p>
-						<p class="distributor-item__info">+7 (495) 221-10-77</p>
+						<a class="distributor-item__info" href="tel:+74952211077">+7 (495) 221-10-77</a>
 						<p class="distributor-item__info">пн-пт, 09:00 - 18:00</p>
-						<a class="distributor-item__link" href="">daripodarki.ru</a>
+						<a class="distributor-item__link" href="http://www.daripodarki.ru/" target="_blank">daripodarki.ru</a>
 					</div>
 					<div class="distributor-item distributors__item">
 						<p class="distributor-item__head">«Без барана»</p>
-						<p class="distributor-item__info">+7 (499) 248-22-87</p>
+						<a class="distributor-item__info" href="tel:+74992482287">+7 (499) 248-22-87</a>
 						<p class="distributor-item__info">пн-пт, 10:00 - 19:00</p>
-						<a class="distributor-item__link" href="">bezbarana.ru</a>
+						<a class="distributor-item__link" href="http://bezbarana.ru/" target="_blank">bezbarana.ru</a>
 					</div>
 					<div class="distributor-item distributors__item">
 						<p class="distributor-item__head">«Giftery»</p>
-						<p class="distributor-item__info">8 (800) 700-90-90</p>
+						<a class="distributor-item__info" href="tel:88007009090">8 (800) 700-90-90</a>
 						<p class="distributor-item__info">Круглосуточно</p>
-						<a class="distributor-item__link" href="">giftery.ru</a>
-					</div><div class="distributor-item distributors__item">
+						<a class="distributor-item__link" href="https://www.giftery.ru/" target="_blank">giftery.ru</a>
+					</div>
+					<div class="distributor-item distributors__item">
 						<p class="distributor-item__head">«Заказ подарка»</p>
-						<p class="distributor-item__info">+7 (495) 215-06-50</p>
+						<a class="distributor-item__info" href="tel:+74952150650">+7 (495) 215-06-50</a>
 						<p class="distributor-item__info">пн-пт, 09:00 - 18:30</p>
-						<a class="distributor-item__link" href="">mygiftcard.ru</a>
+						<a class="distributor-item__link" href="https://mygiftcard.ru/" target="_blank">mygiftcard.ru</a>
 					</div>
 				</div>
 			</div>
