@@ -7,6 +7,8 @@
 	margin: 0
 	padding: 0
 	list-style: none
+	@media screen and (max-width: $mobile)
+		flex-direction: column
 	&__item
 		margin-right: 80px
 		margin-bottom: 80px
@@ -14,5 +16,7 @@
 		@media screen and (max-width: $tablet)
 			width: 45%
 			margin-right: 60px
+		@media screen and (max-width: $mobile)
+			width: 100%
 		&:nth-child(2n)
 			margin-right: 0

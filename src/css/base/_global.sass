@@ -21,6 +21,8 @@ body
 
 .section
 	padding: 166px 0
+	@media screen and (max-width: $mobile)
+		padding: 80px 0
 	&_gray
 		background-color: $lightGray
 	&_blue
@@ -31,10 +33,16 @@ body
 		font-weight: 800
 		line-height: 72px
 		color: $gray
+		@media screen and (max-width: $mobile)
+			font-size: 32px
+			line-height: 37px
 		&_white
 			color: white
 	&__content
 		margin-top: 108px
+		@media screen and (max-width: $mobile)
+			margin-top: 80px
 		&_space-top-l
 			margin-top: 180px
-		//outline: 3px solid darkmagenta
+		@media screen and (max-width: $mobile)
+			margin-top: 80px

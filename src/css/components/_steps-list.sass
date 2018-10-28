@@ -21,6 +21,11 @@
 			width: 225px
 		@media screen and (max-width: $tablet)
 			margin-bottom: 25px
+		@media screen and (max-width: $mobile)
+			width: 100%
+			margin-bottom: 45px
+			padding-right: 0
+			font-size: 18px
 		&::before
 			content: counter(steps-list)
 			counter-increment: steps-list
@@ -30,6 +35,8 @@
 			font-size: 64px
 			font-weight: 800
 			transform: translateY(-50%)
+			@media screen and (max-width: $mobile)
+				font-size: 52px
 		&::after
 			content: ""
 			position: absolute
@@ -44,6 +51,8 @@
 			background-repeat: no-repeat
 			@media screen and (max-width: $desktop)
 				right: 15px
+			@media screen and (max-width: $mobile)
+				display: none
 		&:last-child
 			&::after
 				display: none

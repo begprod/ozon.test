@@ -10,6 +10,8 @@
 		display: block
 		margin: 0 auto
 		max-width: 100%
+		@media screen and (max-width: $mobile)
+			margin-bottom: 25px
 	&__descr
 		display: inline-block
 		max-width: 35%
@@ -17,3 +19,7 @@
 		font-size: 20px
 		line-height: 28px
 		text-align: left
+		@media screen and (max-width: $mobile)
+			max-width: 100%
+			font-size: 16px
+			text-align: center
