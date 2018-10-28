@@ -1,0 +1,43 @@
+.steps-list
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	justify-content: flex-start
+	align-items: center
+	margin: 0
+	padding: 0
+	list-style: none
+	counter-reset: steps-list
+	&__item
+		position: relative
+		width: 245px
+		padding-left: 55px
+		padding-right: 50px
+		font-size: 26px
+		font-weight: 300
+		line-height: 28px
+		color: white
+		&::before
+			content: counter(steps-list)
+			counter-increment: steps-list
+			position: absolute
+			top: 50%
+			left: 0
+			font-size: 64px
+			font-weight: 800
+			transform: translateY(-50%)
+		&::after
+			content: ""
+			position: absolute
+			top: 50%
+			right: 30px
+			width: 21px
+			height: 60px
+			transform: translateY(-50%)
+			background-image: url("../media/images/svg/i-arrow.svg")
+			background-size: cover
+			background-position: center
+			background-repeat: no-repeat
+		&:last-child
+			&::after
+				display: none
